@@ -1,0 +1,102 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(riddler.jpg);
+    background-size: cover;
+}
+
+.panel {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.question-container {
+    margin: 10px;
+    padding: 5px;
+    width: 30vw;
+    height: 5vh;
+    background-color: #00ff33;
+    font-size: x-large;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.result {
+    margin: 10px;
+    padding: 5px;
+    width: 80vw;
+    height: 10vh;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.option-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 5px;
+    width: 80vw;
+    height: 20vh;
+    background-color: transparent;
+    border-radius: 12px;
+}
+
+.option {
+    padding: 10px;
+    width: 15vw;
+    height: 10vh;
+    font-size: larger;
+    background-color: #00ff33;
+    border-radius: 25%;
+    
+}
+
+.option:hover {
+    background-color: rgb(19, 125, 0);
+}
+
+.navigation {
+    width: 80vw;
+    height: 10vh;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent
+    
+}
+
+.evaluate,
+.next {
+    width: 30vw;
+    height: 8vh;
+    padding: 5px;
+    font-size: larger;
+    border-radius: 12px;
+    
+}
+
+.evaluate {
+
+    background-color: #ffffff;
+}
+
+.next {
+    color: white;
+}
+
+.evaluate:hover {
+    background-color: #2bff00;
+    color: rgb(255, 255, 255);
+}
+
+.next:hover {
+    background-color: red;
+    color: white;
+}
